@@ -175,3 +175,132 @@ legend{
   	color:#07075B;
 }
 
+.form-main:before, .form-main:after {
+ 	content:"";
+ 	display:table;
+}
+
+.form-main:after {
+	clear:both; 
+}
+
+.form-main { 
+	zoom:1; 
+}
+
+.form-main {
+	background-color: #303941;
+	border-radius: 10px;
+	box-shadow: 0 0 2px #606971 inset;
+	margin: 0 auto;
+	padding: 15px;
+	width: 450px;
+}
+
+.form-main input {
+	background-color: #EEE;
+	border: none;
+	border-radius: 3px 0 0 3px;
+	float: left;
+	font-family: Tahoma;
+	font-size:15px;
+	font-weight: bold;
+	height: 20px;
+	padding: 10px 5px;
+	width: 330px;
+}
+
+.form-main input:focus { 
+	outline: 0;
+    background: #FFF;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.form-main input:-moz-placeholder {
+	color: #999; 
+	font-weight: normal; 
+	font-style: italic; 
+}
+
+.form-main input::-webkit-input-placeholder { 
+	color: #999; 
+	font-weight: normal; 
+	font-style: italic; 
+}
+.form-main input:-ms-input-placeholder { 
+	color: #999; 
+	font-weight: normal; 
+	font-style: italic; 
+}
+
+.form-main input:required {
+	box-shadow: none; 
+}
+
+.form-main button {
+	background-color: #9099A1;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    color: #FFF;
+    cursor: pointer;
+    float: right;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    width: 110px;
+}
+
+.form-main button:hover{ 
+	background: #E54040; 
+} 
+
+.form-main button:active, .formulariodemo button:focus{ 
+	background: #C42F2F;
+}
+
+.form-main button:before { 
+    content: "";
+    border-color: transparent #9099A1 transparent;
+    border-style: solid solid solid none;
+    border-width: 8px 8px 8px 0;
+    left: -6px;
+    position: absolute;
+    top: 12px;
+}
+
+.form-main button:hover:before { 
+	border-right-color: #E54040;
+}
+
+.form-main button:focus:before {
+	border-right-color: #C42F2F; 
+}    
+
+
+#main{
+	display:flex;
+    flex-direction:column-reverse;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;    
+    width:25%;
+    margin-left:40%;	
+}
+
+.box {
+	margin:20px auto 40px auto;	
+   	border:1px solid #d9d9d9;
+   	height:60px;
+   	overflow: hidden;
+   	width: 230px;
+   	position:relative;
+}
+
+
+
