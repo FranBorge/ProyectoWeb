@@ -11,7 +11,7 @@
     justify-content: space-around;
     align-content: space-around;
     align-items: center;	
-}
+ }
 
 .slider{
 	width: 95%;
@@ -48,6 +48,34 @@
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+}
+
+.menu{
+	display: block;
+	background: #3E4156;
+	margin-top:-20px;
+	margin-left: 32px;
+	width: 92.2%;
+}
+
+.menu li{
+	display: inline-block;
+	position: relative;
+	z-index: 100;
+}
+
+.menu li a{
+	font-weight: 600;
+	text-decoration: none;
+	padding: 11px;
+	display: block;
+	color:#ffffff;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.menu li a:hover, .menu li:hover > a{
+	color:#ffffff;
+	background:#9CA3DA;
 }
 
 #brand{
