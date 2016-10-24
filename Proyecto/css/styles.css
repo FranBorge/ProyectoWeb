@@ -130,7 +130,7 @@ header{
 }
 
 .order{
-	width: 900px;
+	width: 950px;
 	height: 350px;
   	border-top: solid white;
   	border-bottom:solid white;
@@ -153,11 +153,12 @@ header{
   	height: 110px;
   	border-collapse: separate;
   	text-align: center;
+
  }
  
  table th, td:before {
     color: #dd5;
-    width: 80px;
+    width: 80px absolute;
 
  }
 
