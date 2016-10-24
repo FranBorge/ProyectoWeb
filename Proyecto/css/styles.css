@@ -17,6 +17,7 @@
 	width: 95%;
 	margin: auto;
 	overflow: hidden;
+	margin-top: -21.8px;
 }
 
 .slider ul{
@@ -85,8 +86,7 @@
     background-position: 50%;
     border-radius: 36%;
     background-size: 80% auto;    
-    cursor: pointer;
-  
+    cursor: pointer;  
 }
 
 .rotate:hover{
@@ -101,5 +101,76 @@
 	bottom: 0px; 
 	left: 0px; 
 	text-align: center; 
+}
+
+header{
+	position: relative;
+    z-index: 1000;
+    width:101%;
+    height: 140px;
+    top: -7px;
+    margin-left:-7px;
+}
+
+.vehicle-audi{
+	position: relative;
+	width:75%;
+	height:2600px;
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    top: 50%;
+    margin-left: 2.5%;
+    padding: 16px;
+    overflow: auto;
+    border-radius: 5px;   
+}
+
+.order{
+	width: 900px;
+	height: 350px;
+  	border-top: solid white;
+  	border-bottom:solid white;
+  	border-left: solid white;
+  	border-right: solid white;
+  	border-radius: 5px;
+  	display: flex;
+  	flex-direction: row;
+  	align-content: center;
+  	justify-content: space-around;
+  	align-items: center;
+  	background:#9565F5; 
+  }
+
+ .table{
+ 	background:#34495E;
+  	color: #fff;
+ 	border-radius: 5px;
+  	overflow: hidden;  	
+  	height: 110px;
+  	border-collapse: separate;
+  	text-align: center;
+ }
+ 
+ table th, td:before {
+    color: #dd5;
+    width: 80px;
+
+ }
+
+table tr:nth-child(even) {
+	background-color:#BAF7BA;
+	color: blue;
+	font-weight: bold;	
+}
+
+legend{
+	font-size: 150%;
+	font-weight: bold;
+  	letter-spacing: -1px;
+  	color:#07075B;
 }
 
